@@ -12,7 +12,7 @@ Though it's not required, we find it's good practice to order our event function
 
 Events affect states in memory, so they are available before they are persisted to the DB.
 
-States allow you to complete your complex calculations and business logic away from you models, radically reducing database query overhead.
+States allow you to complete your complex calculations and business logic away from your models, radically reducing database query overhead.
 
 Here's a simple example of a nondescript game where players exchange money. The `PlayerTransaction` event fires:
 
